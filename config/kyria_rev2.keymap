@@ -43,7 +43,7 @@
 	               &kp C_MUTE &kp LALT &mo SYM &lt NAV SPACE &mt LEFT_GUI RET        &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
         gaming_layer {
@@ -55,7 +55,7 @@
 	                 &kp C_MUTE &kp LALT &mo SYM &kp SPACE &kp ESC                        &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         nav_layer {
@@ -67,7 +67,7 @@
 	                 &kp C_MUTE &kp LALT &mo SYM &lt NAV SPACE &mt LEFT_GUI RET   &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         sym_layer {
@@ -79,7 +79,7 @@
 	                 &kp C_MUTE &kp LALT &mo SYM &lt NAV SPACE &mt LEFT_GUI RET   &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 	};
 };
