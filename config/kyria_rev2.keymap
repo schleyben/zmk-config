@@ -64,7 +64,7 @@
         nav_layer {
 		
 			bindings = <
-	&bt BT_CLR &kp BSPC &trans &kp UP &trans &trans                                                &kp F1 &kp F3  &kp F3  &kp F4  &kp F5   &kp F6
+	&bt BT_CLR &kp BSPC &trans &kp UP &trans &trans                                                &kp F1 &kp F2  &kp F3  &kp F4  &kp F5   &kp F6
 	&trans  &kp DEL &kp LEFT &kp DOWN &kp RIGHT &trans                                          &kp F7 &kp F8  &kp F9  &kp F10 &kp F11  &kp F12
 	&trans  &kp INS &kp HOME &kp END &kp PG_UP &kp PG_DN  &none &none              &none &cred  &trans &trans  &trans  &trans  &trans   &trans
 	                 &kp C_MUTE &kp LALT &mo SYM &lt NAV SPACE &mt LEFT_GUI RET   &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
