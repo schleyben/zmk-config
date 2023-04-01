@@ -42,7 +42,7 @@
 			bindings = <
 	&kp TAB          &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp MINUS
 	&mt LCTRL ESC    &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&mt LSHIFT LPAR  &kp Z &kp X &kp C &kp V &kp B &to DEFAULT &to GAMING             &none &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHIFT RPAR
+	&mt LSHIFT LPAR  &kp Z &kp X &kp C &kp V &kp B &trans &tog GAMING             &none &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHIFT RPAR
 	               &kp C_MUTE &kp LALT &mo SYM &lt NAV SPACE &mt LEFT_GUI RET        &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
@@ -54,7 +54,7 @@
 			bindings = <
 	&kp T  &kp TAB   &kp Q &kp W &kp E &kp R                                                     &kp Y &kp U  &kp I     &kp O   &kp P    &kp MINUS
 	&kp G  &kp LCTRL &kp A &kp S &kp D &kp F                                                     &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp B  &kp LSHIFT &kp Z &kp X &kp C &kp V  &to DEFAULT &to DEFAULT                none &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHIFT RPAR
+	&kp B  &kp LSHIFT &kp Z &kp X &kp C &kp V  &trans  &tog GAMING                &none &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHIFT RPAR
 	                 &kp C_MUTE &kp LALT &mo SYM &kp SPACE &kp ESC                        &none  &kp BSPC  &lt NAV RET &mo SYM &kp CAPS
 			>;
 
